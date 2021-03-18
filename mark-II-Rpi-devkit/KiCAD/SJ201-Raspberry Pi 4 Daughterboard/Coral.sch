@@ -10031,9 +10031,11 @@ F 3 "https://coral.ai/static/files/Coral-Accelerator-Module-datasheet.pdf" H 520
 	1    0    0    -1  
 $EndComp
 $Comp
-L CoralTPU:CoralTPU U2
+L Mycroft:CoralTPU U2
 U 1 1 5F9D6A2B
 P 2625 3125
+AR Path="/5F9D6A2B" Ref="U2"  Part="1" 
+AR Path="/5F9CAA4F/5F9D6A2B" Ref="U2"  Part="1" 
 F 0 "U2" H 2550 3290 50  0000 C CNN
 F 1 "CoralTPU-DNP" H 2550 3199 50  0000 C CNN
 F 2 "CoralTPU:CoralTPU" H 2625 3125 50  0001 C CNN

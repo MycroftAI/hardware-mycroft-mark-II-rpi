@@ -1,7 +1,8 @@
 (fp_lib_table
   (lib (name NetTie)(type KiCad)(uri ${KISYSMOD}/NetTie.pretty)(options "")(descr ""))
-  (lib (name TAS5806MD)(type KiCad)(uri ${KIPRJMOD}/libraries/footprints.pretty)(options "")(descr ""))
-  (lib (name libraries)(type KiCad)(uri ${KIPRJMOD}/libraries)(options "")(descr ""))
+  (lib (name TAS5806MD)(type KiCad)(uri ${KIPRJMOD}/libraries/Amplifier.pretty)(options "")(descr ""))
   (lib (name XMOS)(type KiCad)(uri ${KIPRJMOD}/libraries/XMOS.pretty)(options "")(descr ""))
   (lib (name Mycroft)(type KiCad)(uri ${KIPRJMOD}/libraries/Mycroft.pretty)(options "")(descr ""))
+  (lib (name Logos)(type KiCad)(uri ${KIPRJMOD}/libraries/Logos.pretty)(options "")(descr ""))
+  (lib (name CoralTPU)(type KiCad)(uri ${KIPRJMOD}/libraries/CoralTPU.pretty)(options "")(descr ""))
 )

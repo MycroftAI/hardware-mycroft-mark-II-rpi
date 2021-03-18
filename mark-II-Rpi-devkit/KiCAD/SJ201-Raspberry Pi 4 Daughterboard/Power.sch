@@ -2025,13 +2025,14 @@ Wire Wire Line
 	1475 4800 1475 4750
 Connection ~ 1475 4750
 $Comp
-L kevin:Ferrite_Bead_Small L?
+L Mycroft:Ferrite_Bead_Small L?
 U 1 1 5F089568
 P 8350 1175
 AR Path="/5EA9C461/5F089568" Ref="L?"  Part="1" 
 AR Path="/5EAB86B0/5F089568" Ref="L?"  Part="1" 
 AR Path="/5EA9C67D/5F089568" Ref="L?"  Part="1" 
 AR Path="/5EAAC9A5/5F089568" Ref="FB8"  Part="1" 
+AR Path="/5F089568" Ref="FB8"  Part="1" 
 F 0 "FB8" V 8300 1075 50  0000 C CNN
 F 1 "FB" V 8300 1325 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 8280 1175 50  0001 C CNN
@@ -2121,20 +2122,6 @@ Wire Notes Line
 	475  2000 3550 2000
 Wire Notes Line
 	3550 2000 3550 475 
-$Comp
-L user:XL4015 U1
-U 1 1 5F0C10B6
-P 3225 3175
-F 0 "U1" H 3250 3543 51  0000 C CNN
-F 1 "XL4501E1" H 3250 3450 51  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 3225 3175 51  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/2001091809_XLSEMI-XL4501E1_C73025.pdf" H 3225 3175 51  0001 C CNN
-F 4 "XL4501E1" H 3225 3175 50  0001 C CNN "MPN"
-F 5 "C73025" H 3225 3175 50  0001 C CNN "LCSC"
-F 6 "https://lcsc.com/product-detail/DC-DC-Converters_XLSEMI-XL4501E1_C73025.html" H 3225 3175 50  0001 C CNN "Link"
-	1    3225 3175
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 5F0CD0DA
@@ -2489,22 +2476,6 @@ F 4 "C15195" H 3250 6350 50  0001 C CNN "LCSC"
 F 5 "CL05B103KB5NNNC" H 3250 6350 50  0001 C CNN "MPN"
 	1    3250 6350
 	-1   0    0    1   
-$EndComp
-$Comp
-L user:MP2359 U?
-U 1 1 5F44B3BE
-P 2700 6350
-AR Path="/5EA9C76D/5F44B3BE" Ref="U?"  Part="1" 
-AR Path="/5EAAC9A5/5F44B3BE" Ref="U7"  Part="1" 
-F 0 "U7" H 2500 6650 63  0000 C CNN
-F 1 "MP2359" H 2400 5775 45  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 2700 6350 63  0001 C CNN
-F 3 "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP2359/document_id/228" H 2700 6350 63  0001 C CNN
-F 4 "MP2359DJ-LF-Z" H 2700 6350 50  0001 C CNN "MPN"
-F 5 "https://www.mouser.com/ProductDetail/Monolithic-Power-Systems-MPS/MP2359DJ-LF-Z/?qs=rC7bBWoQAAkgAaURxgQSyA%3D%3D" H 2700 6350 50  0001 C CNN "Link"
-F 6 "C14259" H 2700 6350 50  0001 C CNN "LCSC"
-	1    2700 6350
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3150 6200 3250 6200
@@ -7062,9 +7033,11 @@ Wire Notes Line
 Wire Notes Line
 	1100 4300 3325 4300
 $Comp
-L user:TPS759xxx U12
+L Mycroft:TPS759xxx U12
 U 1 1 5FCCB82B
 P 4550 4875
+AR Path="/5FCCB82B" Ref="U12"  Part="1" 
+AR Path="/5EAAC9A5/5FCCB82B" Ref="U12"  Part="1" 
 F 0 "U12" H 4550 5217 50  0000 C CNN
 F 1 "TPS75933KTTR-DNP" H 4550 5126 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 4550 4875 50  0001 C CNN
@@ -7437,6 +7410,39 @@ F 3 "" H 7800 4925 50  0001 C CNN
 F 4 "CL10A226MQ8NRNE-DNP" H 7800 4925 50  0001 C CNN "MPN"
 F 5 "C59461-DNP" H 7800 4925 50  0001 C CNN "LCSC"
 	1    7800 4925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mycroft:MP2359 U?
+U 1 1 5F44B3BE
+P 2700 6350
+AR Path="/5EA9C76D/5F44B3BE" Ref="U?"  Part="1" 
+AR Path="/5EAAC9A5/5F44B3BE" Ref="U7"  Part="1" 
+AR Path="/5F44B3BE" Ref="U7"  Part="1" 
+F 0 "U7" H 2500 6650 63  0000 C CNN
+F 1 "MP2359" H 2400 5775 45  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 2700 6350 63  0001 C CNN
+F 3 "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP2359/document_id/228" H 2700 6350 63  0001 C CNN
+F 4 "MP2359DJ-LF-Z" H 2700 6350 50  0001 C CNN "MPN"
+F 5 "https://www.mouser.com/ProductDetail/Monolithic-Power-Systems-MPS/MP2359DJ-LF-Z/?qs=rC7bBWoQAAkgAaURxgQSyA%3D%3D" H 2700 6350 50  0001 C CNN "Link"
+F 6 "C14259" H 2700 6350 50  0001 C CNN "LCSC"
+	1    2700 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mycroft:XL4015 U1
+U 1 1 5F0C10B6
+P 3225 3175
+AR Path="/5F0C10B6" Ref="U1"  Part="1" 
+AR Path="/5EAAC9A5/5F0C10B6" Ref="U1"  Part="1" 
+F 0 "U1" H 3250 3543 51  0000 C CNN
+F 1 "XL4501E1" H 3250 3450 51  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 3225 3175 51  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2001091809_XLSEMI-XL4501E1_C73025.pdf" H 3225 3175 51  0001 C CNN
+F 4 "XL4501E1" H 3225 3175 50  0001 C CNN "MPN"
+F 5 "C73025" H 3225 3175 50  0001 C CNN "LCSC"
+F 6 "https://lcsc.com/product-detail/DC-DC-Converters_XLSEMI-XL4501E1_C73025.html" H 3225 3175 50  0001 C CNN "Link"
+	1    3225 3175
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

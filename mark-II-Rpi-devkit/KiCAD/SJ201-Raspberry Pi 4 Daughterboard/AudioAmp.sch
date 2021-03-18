@@ -29,9 +29,11 @@ F 3 "" H 4975 1075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kevin:Speaker J4
+L Mycroft:Speaker J4
 U 1 1 5F1C4478
 P 8075 2475
+AR Path="/5F1C4478" Ref="J4"  Part="1" 
+AR Path="/5EA9C67D/5F1C4478" Ref="J4"  Part="1" 
 F 0 "J4" H 8275 2350 50  0000 C CNN
 F 1 "SPK" H 8300 2525 50  0000 C CNN
 F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 8075 2475 50  0001 C CNN
@@ -211,9 +213,11 @@ F 5 "https://www.mouser.com/ProductDetail/Texas-Instruments/TAS5806MDDCPR/?qs=%2
 	1    0    0    -1  
 $EndComp
 $Comp
-L kevin:Speaker J3
+L Mycroft:Speaker J3
 U 1 1 5F17E7BB
 P 8075 1475
+AR Path="/5F17E7BB" Ref="J3"  Part="1" 
+AR Path="/5EA9C67D/5F17E7BB" Ref="J3"  Part="1" 
 F 0 "J3" H 8225 1450 50  0000 L CNN
 F 1 "SPK" H 8225 1300 50  0000 L CNN
 F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 8075 1475 50  0001 C CNN
@@ -9551,12 +9555,13 @@ Wire Wire Line
 	6100 2675 6100 2075
 Connection ~ 6100 2075
 $Comp
-L kevin:Ferrite_Bead_Small FB?
+L Mycroft:Ferrite_Bead_Small FB?
 U 1 1 5F093200
 P 6575 1225
 AR Path="/5EA9C461/5F093200" Ref="FB?"  Part="1" 
 AR Path="/5EAB86B0/5F093200" Ref="FB?"  Part="1" 
 AR Path="/5EA9C67D/5F093200" Ref="FB1"  Part="1" 
+AR Path="/5F093200" Ref="FB1"  Part="1" 
 F 0 "FB1" V 6525 1125 50  0000 C CNN
 F 1 "FB" V 6700 1325 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 6505 1225 50  0001 C CNN
@@ -9568,12 +9573,13 @@ F 6 "BK32164S301-T" H 6575 1225 50  0001 C CNN "Tempo"
 	0    1    1    0   
 $EndComp
 $Comp
-L kevin:Ferrite_Bead_Small FB?
+L Mycroft:Ferrite_Bead_Small FB?
 U 1 1 5F1C4447
 P 6575 2775
 AR Path="/5EA9C461/5F1C4447" Ref="FB?"  Part="1" 
 AR Path="/5EAB86B0/5F1C4447" Ref="FB?"  Part="1" 
 AR Path="/5EA9C67D/5F1C4447" Ref="FB4"  Part="1" 
+AR Path="/5F1C4447" Ref="FB4"  Part="1" 
 F 0 "FB4" V 6525 2675 50  0000 C CNN
 F 1 "FB" V 6625 2875 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 6505 2775 50  0001 C CNN
@@ -9585,12 +9591,13 @@ F 6 "BK32164S301-T" H 6575 2775 50  0001 C CNN "Tempo"
 	0    1    1    0   
 $EndComp
 $Comp
-L kevin:Ferrite_Bead_Small FB?
+L Mycroft:Ferrite_Bead_Small FB?
 U 1 1 5F1C4441
 P 6575 2200
 AR Path="/5EA9C461/5F1C4441" Ref="FB?"  Part="1" 
 AR Path="/5EAB86B0/5F1C4441" Ref="FB?"  Part="1" 
 AR Path="/5EA9C67D/5F1C4441" Ref="FB3"  Part="1" 
+AR Path="/5F1C4441" Ref="FB3"  Part="1" 
 F 0 "FB3" V 6525 2100 50  0000 C CNN
 F 1 "FB" V 6700 2300 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 6505 2200 50  0001 C CNN
@@ -9602,12 +9609,13 @@ F 6 "BK32164S301-T" H 6575 2200 50  0001 C CNN "Tempo"
 	0    1    1    0   
 $EndComp
 $Comp
-L kevin:Ferrite_Bead_Small FB?
+L Mycroft:Ferrite_Bead_Small FB?
 U 1 1 5F093B93
 P 6575 1675
 AR Path="/5EA9C461/5F093B93" Ref="FB?"  Part="1" 
 AR Path="/5EAB86B0/5F093B93" Ref="FB?"  Part="1" 
 AR Path="/5EA9C67D/5F093B93" Ref="FB2"  Part="1" 
+AR Path="/5F093B93" Ref="FB2"  Part="1" 
 F 0 "FB2" V 6525 1575 50  0000 C CNN
 F 1 "FB" V 6625 1775 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 6505 1675 50  0001 C CNN
@@ -10011,12 +10019,13 @@ $EndComp
 Wire Wire Line
 	8425 3675 8700 3675
 $Comp
-L kevin:Ferrite_Bead_Small FB?
+L Mycroft:Ferrite_Bead_Small FB?
 U 1 1 5FD80208
 P 8225 3100
 AR Path="/5EA9C461/5FD80208" Ref="FB?"  Part="1" 
 AR Path="/5EAB86B0/5FD80208" Ref="FB?"  Part="1" 
 AR Path="/5EA9C67D/5FD80208" Ref="FB7"  Part="1" 
+AR Path="/5FD80208" Ref="FB7"  Part="1" 
 F 0 "FB7" V 8175 3000 50  0000 C CNN
 F 1 "FB" V 8350 3200 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 8155 3100 50  0001 C CNN

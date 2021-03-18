@@ -131,7 +131,7 @@ U 1 1 5F5E5223
 P 9150 6650
 F 0 "H5" H 9250 6696 50  0001 L CNN
 F 1 "MountingHole" H 9250 6605 50  0001 L CNN
-F 2 "mycroft:mycroft_logo_graphic" H 9150 6650 50  0001 C CNN
+F 2 "Logos:mycroft_logo_graphic" H 9150 6650 50  0001 C CNN
 F 3 "~" H 9150 6650 50  0001 C CNN
 F 4 "DNP" H 9150 6650 50  0001 C CNN "MPN"
 	1    9150 6650
@@ -143,7 +143,7 @@ U 1 1 5F18D39F
 P 9325 6650
 F 0 "H7" H 9425 6696 50  0001 L CNN
 F 1 "MountingHole" H 9425 6605 50  0001 L CNN
-F 2 "mycroft:mycroft_logo_words" H 9325 6650 50  0001 C CNN
+F 2 "Logos:mycroft_logo_words" H 9325 6650 50  0001 C CNN
 F 3 "~" H 9325 6650 50  0001 C CNN
 F 4 "DNP" H 9325 6650 50  0001 C CNN "MPN"
 	1    9325 6650
@@ -181,7 +181,7 @@ U 1 1 60926A26
 P 9125 6450
 F 0 "H6" H 9225 6496 50  0001 L CNN
 F 1 "MountingHole" H 9225 6405 50  0001 L CNN
-F 2 "libraries:simon-jestor-logo" H 9125 6450 50  0001 C CNN
+F 2 "Logos:simon-jester-logo" H 9125 6450 50  0001 C CNN
 F 3 "~" H 9125 6450 50  0001 C CNN
 F 4 "DNP" H 9125 6450 50  0001 C CNN "MPN"
 	1    9125 6450
